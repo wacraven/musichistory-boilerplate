@@ -35,13 +35,9 @@
 	float: left;
 	width: 20%;
 	box-sizing: border-box;
+	height: 350px;
 }
 
-/*#songLengthSlider {
-	width: 80%;
-	margin: auto;
-}
-*/
 #sideBarLeft > * {
 	display: block;
 	width: 90%;
@@ -66,7 +62,7 @@
 }
 
 #genreOptRight {
-	float: left;
+	float: right;
 	width: 50%;
 }
 
@@ -86,6 +82,7 @@
 	float: right;
 	width: 79%;
 	box-sizing: border-box;
+	height: 350px;
 }
 
 #content > article {
