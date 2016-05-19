@@ -1,0 +1,101 @@
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+#container > div {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+
+/*-------------*/
+
+
+
+#navBar {
+	background-color: #FFB4B0;
+	margin-bottom: 1%;
+}
+
+#navLinks * {
+	text-decoration: none;
+	font-weight: 900;
+	display: inline-block;
+	padding: 5px;
+}
+
+
+/*-------------*/
+
+
+
+#sideBarLeft {
+	background-color: #4DD7FA;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+/*#songLengthSlider {
+	width: 80%;
+	margin: auto;
+}
+*/
+#sideBarLeft > * {
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+#sideBarLeft > .textLabel:not(:first-child) {
+	padding: 15px 0 5px 0;
+}
+
+#genreOptLeft > label {
+	display: block;
+}
+
+#genreOptRight > label {
+	display: block;
+}
+
+#genreOptLeft {
+	float: left;
+	width: 50%;
+}
+
+#genreOptRight {
+	float: left;
+	width: 50%;
+}
+
+#filterButton {
+	padding: 5px;
+	margin-top: 80px;
+	width: 50%;
+	border-radius: 10px;
+}
+
+
+/*-------------*/
+
+
+#content {
+	background-color: #FEFAC0;
+	float: right;
+	width: 79%;
+	box-sizing: border-box;
+}
+
+#content > article {
+	padding: 15px;
+}
+
+#content h1 {
+	color: #785616;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+
